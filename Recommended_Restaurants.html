@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_de1d569386d341b9a3ccf5dc1d381c0b {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_de1d569386d341b9a3ccf5dc1d381c0b" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_de1d569386d341b9a3ccf5dc1d381c0b = L.map(
+        'map_de1d569386d341b9a3ccf5dc1d381c0b', {
+        center: [22.135617, -100.969709],
+        zoom: 9,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_fe95de75d81242ba99d07ac8dc363592 = L.tileLayer(
+        'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+    
+        var marker_870c681a99ac4dad8c1a731dc2df5e47 = L.marker(
+            [22.135617, -100.969709],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_3dff0eaf1eca4d6c98212b14ddde0722 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0358022ba9e3494dae84e91f65bcd164 = $('<div id="html_0358022ba9e3494dae84e91f65bcd164" style="width: 100.0%; height: 100.0%;">Restaurant los Compadres, Alcohol: Wine-Beer, Smoking: none, Dress Code : informal</div>')[0];
+                popup_3dff0eaf1eca4d6c98212b14ddde0722.setContent(html_0358022ba9e3494dae84e91f65bcd164);
+            
+
+            marker_870c681a99ac4dad8c1a731dc2df5e47.bindPopup(popup_3dff0eaf1eca4d6c98212b14ddde0722)
+            ;
+
+            
+        
+    
+        var marker_0257bf9c07f2476fae7bafcabe2311b0 = L.marker(
+            [22.159357, -100.973411],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_5814bf3232dd460eac6254113cd04d1c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_25d5ad76398543c4abc24646b99c921f = $('<div id="html_25d5ad76398543c4abc24646b99c921f" style="width: 100.0%; height: 100.0%;">Restaurant Oriental Express, Alcohol: No_Alcohol_Served, Smoking: none, Dress Code : informal</div>')[0];
+                popup_5814bf3232dd460eac6254113cd04d1c.setContent(html_25d5ad76398543c4abc24646b99c921f);
+            
+
+            marker_0257bf9c07f2476fae7bafcabe2311b0.bindPopup(popup_5814bf3232dd460eac6254113cd04d1c)
+            ;
+
+            
+        
+    
+        var marker_1cf0ed42e51a4035b68be19d64954b11 = L.marker(
+            [22.181017, -100.973614],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_03a8b59bbb1a477b9c76b2d4199b7beb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c51209e6bdd445b4bc1b0ee9364036f3 = $('<div id="html_c51209e6bdd445b4bc1b0ee9364036f3" style="width: 100.0%; height: 100.0%;">Restaurante Pueblo Bonito, Alcohol: Wine-Beer, Smoking: none, Dress Code : informal</div>')[0];
+                popup_03a8b59bbb1a477b9c76b2d4199b7beb.setContent(html_c51209e6bdd445b4bc1b0ee9364036f3);
+            
+
+            marker_1cf0ed42e51a4035b68be19d64954b11.bindPopup(popup_03a8b59bbb1a477b9c76b2d4199b7beb)
+            ;
+
+            
+        
+    
+        var marker_3f1654888c4c497ba92d78981e1f899f = L.marker(
+            [22.142017, -100.999246],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_9a5442644fa643f89b5fcc1ad27d2620 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f7b98ce0bc34450586c72c86ba27f691 = $('<div id="html_f7b98ce0bc34450586c72c86ba27f691" style="width: 100.0%; height: 100.0%;">Restaurante Bar Fu-hao, Alcohol: Wine-Beer, Smoking: none, Dress Code : informal</div>')[0];
+                popup_9a5442644fa643f89b5fcc1ad27d2620.setContent(html_f7b98ce0bc34450586c72c86ba27f691);
+            
+
+            marker_3f1654888c4c497ba92d78981e1f899f.bindPopup(popup_9a5442644fa643f89b5fcc1ad27d2620)
+            ;
+
+            
+        
+    
+        var marker_0ab264c504d5498d922b99ba03b53398 = L.marker(
+            [22.150981, -100.977412],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_63baf9d2756143a0a2781576a446e12a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_792581f1ce1c43509c3273a84bf4340c = $('<div id="html_792581f1ce1c43509c3273a84bf4340c" style="width: 100.0%; height: 100.0%;">La Cantina Restaurante, Alcohol: Full_Bar, Smoking: none, Dress Code : informal</div>')[0];
+                popup_63baf9d2756143a0a2781576a446e12a.setContent(html_792581f1ce1c43509c3273a84bf4340c);
+            
+
+            marker_0ab264c504d5498d922b99ba03b53398.bindPopup(popup_63baf9d2756143a0a2781576a446e12a)
+            ;
+
+            
+        
+    
+        var marker_baf918028b8f4b66bdd90ce3cd4a447d = L.marker(
+            [22.178931, -101.012861],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_8b712218013340d6815bcb14d4293013 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b3a1be08721846639136602b7b29b585 = $('<div id="html_b3a1be08721846639136602b7b29b585" style="width: 100.0%; height: 100.0%;">La Fontana Pizza Restaurante and Cafe, Alcohol: No_Alcohol_Served, Smoking: section, Dress Code : informal</div>')[0];
+                popup_8b712218013340d6815bcb14d4293013.setContent(html_b3a1be08721846639136602b7b29b585);
+            
+
+            marker_baf918028b8f4b66bdd90ce3cd4a447d.bindPopup(popup_8b712218013340d6815bcb14d4293013)
+            ;
+
+            
+        
+    
+        var marker_294dca4657234638b9250892be35b874 = L.marker(
+            [22.140626, -100.915657],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_05c14ffd7d844b489949bcf7c755359a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7fa1f72f3825483983e77ab45af60e30 = $('<div id="html_7fa1f72f3825483983e77ab45af60e30" style="width: 100.0%; height: 100.0%;">Restaurante y Pescaderia Tampico, Alcohol: No_Alcohol_Served, Smoking: none, Dress Code : informal</div>')[0];
+                popup_05c14ffd7d844b489949bcf7c755359a.setContent(html_7fa1f72f3825483983e77ab45af60e30);
+            
+
+            marker_294dca4657234638b9250892be35b874.bindPopup(popup_05c14ffd7d844b489949bcf7c755359a)
+            ;
+
+            
+        
+    
+        var marker_e2563c8c910d4d7288cbe038b5cf2b68 = L.marker(
+            [22.1544736, -100.9858091],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_7022acd125d442afa5e2da7c75ce4386 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4acd59ee7a694234b62b234679233078 = $('<div id="html_4acd59ee7a694234b62b234679233078" style="width: 100.0%; height: 100.0%;">VIPS, Alcohol: No_Alcohol_Served, Smoking: not permitted, Dress Code : casual</div>')[0];
+                popup_7022acd125d442afa5e2da7c75ce4386.setContent(html_4acd59ee7a694234b62b234679233078);
+            
+
+            marker_e2563c8c910d4d7288cbe038b5cf2b68.bindPopup(popup_7022acd125d442afa5e2da7c75ce4386)
+            ;
+
+            
+        
+    
+        var marker_49bb03b491424c168aaa9ea620f68fff = L.marker(
+            [22.147145, -100.974494],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_80fd6e6b7145411ca2c958ef9e5ef05a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2d85bf05e19240868d4c95fec07ce2b8 = $('<div id="html_2d85bf05e19240868d4c95fec07ce2b8" style="width: 100.0%; height: 100.0%;">Restaurant Orizatlan, Alcohol: Wine-Beer, Smoking: none, Dress Code : informal</div>')[0];
+                popup_80fd6e6b7145411ca2c958ef9e5ef05a.setContent(html_2d85bf05e19240868d4c95fec07ce2b8);
+            
+
+            marker_49bb03b491424c168aaa9ea620f68fff.bindPopup(popup_80fd6e6b7145411ca2c958ef9e5ef05a)
+            ;
+
+            
+        
+    
+        var marker_5e0e255e708f4ccd92224ce0c91f1394 = L.marker(
+            [22.156883, -100.978485],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_d5c3cab1d0b54269b59c86ee5de8fefc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_98a72bf2cecc47cfa52dddbe1b362504 = $('<div id="html_98a72bf2cecc47cfa52dddbe1b362504" style="width: 100.0%; height: 100.0%;">Restaurante Marisco Sam, Alcohol: No_Alcohol_Served, Smoking: none, Dress Code : informal</div>')[0];
+                popup_d5c3cab1d0b54269b59c86ee5de8fefc.setContent(html_98a72bf2cecc47cfa52dddbe1b362504);
+            
+
+            marker_5e0e255e708f4ccd92224ce0c91f1394.bindPopup(popup_d5c3cab1d0b54269b59c86ee5de8fefc)
+            ;
+
+            
+        
+    
+        var marker_7aa74b1c2ca24a5c9014a57e47977a0d = L.marker(
+            [22.156724, -100.975556],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_47ea42b32dc14bd7a8907d82b10f6d96 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f03acaf1011049ff81601b8048455306 = $('<div id="html_f03acaf1011049ff81601b8048455306" style="width: 100.0%; height: 100.0%;">Restaurante Alhondiga, Alcohol: No_Alcohol_Served, Smoking: none, Dress Code : informal</div>')[0];
+                popup_47ea42b32dc14bd7a8907d82b10f6d96.setContent(html_f03acaf1011049ff81601b8048455306);
+            
+
+            marker_7aa74b1c2ca24a5c9014a57e47977a0d.bindPopup(popup_47ea42b32dc14bd7a8907d82b10f6d96)
+            ;
+
+            
+        
+    
+        var marker_af0ac8ba35ad47a0b214013b2cf16128 = L.marker(
+            [22.1506429, -100.9870148],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_f93a97d3e39b453d89ab7c5459d90e1b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5d10546e342a4308a48a19dc18a0bb08 = $('<div id="html_5d10546e342a4308a48a19dc18a0bb08" style="width: 100.0%; height: 100.0%;">La Posada del Virrey, Alcohol: Wine-Beer, Smoking: none, Dress Code : casual</div>')[0];
+                popup_f93a97d3e39b453d89ab7c5459d90e1b.setContent(html_5d10546e342a4308a48a19dc18a0bb08);
+            
+
+            marker_af0ac8ba35ad47a0b214013b2cf16128.bindPopup(popup_f93a97d3e39b453d89ab7c5459d90e1b)
+            ;
+
+            
+        
+    
+        var marker_c321284be1ac4d659c8a6a440d04d218 = L.marker(
+            [22.126375, -100.910926],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_de1d569386d341b9a3ccf5dc1d381c0b);
+        
+    
+            var popup_19073efdcd0641e9b3eb8e80d356ba41 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1fa51f403a65423ebab86b8b23408313 = $('<div id="html_1fa51f403a65423ebab86b8b23408313" style="width: 100.0%; height: 100.0%;">Restaurante la Cantina, Alcohol: Full_Bar, Smoking: section, Dress Code : informal</div>')[0];
+                popup_19073efdcd0641e9b3eb8e80d356ba41.setContent(html_1fa51f403a65423ebab86b8b23408313);
+            
+
+            marker_c321284be1ac4d659c8a6a440d04d218.bindPopup(popup_19073efdcd0641e9b3eb8e80d356ba41)
+            ;
+
+            
+        
+</script>
